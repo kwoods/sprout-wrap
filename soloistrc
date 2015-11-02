@@ -25,12 +25,10 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
 - sprout-postgresql
 
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
-- sprout-jetbrains-editors::rubymine
 
 node_attributes:
   sprout:
@@ -73,5 +71,4 @@ node_attributes:
         - github
         - google-chrome
         - google-drive
-        - google-hangouts
         - macvim
